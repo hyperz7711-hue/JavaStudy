@@ -1,0 +1,3 @@
+Hello, Java!!
+today is monday.
+it's rainning.
