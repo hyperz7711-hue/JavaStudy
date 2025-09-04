@@ -1,0 +1,1026 @@
+{
+  "providers": [
+    {
+      "name": "Netflix",
+      "top10": [
+        {
+          "id": 201,
+          "title": "Netflix Show 1",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "COMEDY"
+          ],
+          "duration": 177,
+          "ageRating": "ADULT18",
+          "critics": 83
+        },
+        {
+          "id": 202,
+          "title": "Netflix Show 2",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY"
+          ],
+          "duration": 100,
+          "ageRating": "AGE12",
+          "critics": 63
+        },
+        {
+          "id": 203,
+          "title": "Netflix Show 3",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 121,
+          "ageRating": "ALL",
+          "critics": 98
+        },
+        {
+          "id": 204,
+          "title": "Netflix Show 4",
+          "year": 2022,
+          "type": "SERIES",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 64,
+          "ageRating": "ADULT18",
+          "critics": 62
+        },
+        {
+          "id": 205,
+          "title": "Netflix Show 5",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 169,
+          "ageRating": "ALL",
+          "critics": 92
+        },
+        {
+          "id": 206,
+          "title": "Netflix Show 6",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE",
+            "DRAMA"
+          ],
+          "duration": 89,
+          "ageRating": "ALL",
+          "critics": 82
+        },
+        {
+          "id": 207,
+          "title": "Netflix Show 7",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 106,
+          "ageRating": "AGE12",
+          "critics": 75
+        },
+        {
+          "id": 208,
+          "title": "Netflix Show 8",
+          "year": 2018,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 58,
+          "ageRating": "ADULT18",
+          "critics": 78
+        },
+        {
+          "id": 209,
+          "title": "Netflix Show 9",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "COMEDY"
+          ],
+          "duration": 62,
+          "ageRating": "AGE12",
+          "critics": 78
+        },
+        {
+          "id": 210,
+          "title": "Netflix Show 10",
+          "year": 2020,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 167,
+          "ageRating": "ALL",
+          "critics": 78
+        },
+        {
+          "id": 211,
+          "title": "Netflix Show 11",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 139,
+          "ageRating": "AGE12",
+          "critics": 68
+        },
+        {
+          "id": 212,
+          "title": "Netflix Show 12",
+          "year": 2018,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 64,
+          "ageRating": "AGE15",
+          "critics": 97
+        },
+        {
+          "id": 213,
+          "title": "Netflix Show 13",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 118,
+          "ageRating": "AGE12",
+          "critics": 80
+        },
+        {
+          "id": 214,
+          "title": "Netflix Show 14",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 180,
+          "ageRating": "AGE12",
+          "critics": 71
+        },
+        {
+          "id": 215,
+          "title": "Netflix Show 15",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY"
+          ],
+          "duration": 27,
+          "ageRating": "AGE12",
+          "critics": 94
+        },
+        {
+          "id": 216,
+          "title": "Netflix Show 16",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 157,
+          "ageRating": "AGE12",
+          "critics": 88
+        },
+        {
+          "id": 217,
+          "title": "Netflix Show 17",
+          "year": 2022,
+          "type": "SERIES",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 55,
+          "ageRating": "ALL",
+          "critics": 99
+        },
+        {
+          "id": 218,
+          "title": "Netflix Show 18",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 69,
+          "ageRating": "AGE12",
+          "critics": 78
+        },
+        {
+          "id": 219,
+          "title": "Netflix Show 19",
+          "year": 2020,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 96,
+          "ageRating": "ALL",
+          "critics": 62
+        },
+        {
+          "id": 220,
+          "title": "Netflix Show 20",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 83,
+          "ageRating": "AGE15",
+          "critics": 92
+        }
+      ]
+    },
+    {
+      "name": "TVING",
+      "top10": [
+        {
+          "id": 301,
+          "title": "TVING Show 1",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 28,
+          "ageRating": "AGE15",
+          "critics": 76
+        },
+        {
+          "id": 302,
+          "title": "TVING Show 2",
+          "year": 2022,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 41,
+          "ageRating": "AGE15",
+          "critics": 92
+        },
+        {
+          "id": 303,
+          "title": "TVING Show 3",
+          "year": 2018,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 46,
+          "ageRating": "ALL",
+          "critics": 90
+        },
+        {
+          "id": 304,
+          "title": "TVING Show 4",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 109,
+          "ageRating": "ALL",
+          "critics": 100
+        },
+        {
+          "id": 305,
+          "title": "TVING Show 5",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY"
+          ],
+          "duration": 169,
+          "ageRating": "ALL",
+          "critics": 86
+        },
+        {
+          "id": 306,
+          "title": "TVING Show 6",
+          "year": 2022,
+          "type": "MOVIE",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 60,
+          "ageRating": "AGE12",
+          "critics": 75
+        },
+        {
+          "id": 307,
+          "title": "TVING Show 7",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 149,
+          "ageRating": "AGE15",
+          "critics": 65
+        },
+        {
+          "id": 308,
+          "title": "TVING Show 8",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 135,
+          "ageRating": "ADULT18",
+          "critics": 68
+        },
+        {
+          "id": 309,
+          "title": "TVING Show 9",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 30,
+          "ageRating": "ALL",
+          "critics": 95
+        },
+        {
+          "id": 310,
+          "title": "TVING Show 10",
+          "year": 2020,
+          "type": "MOVIE",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 97,
+          "ageRating": "AGE15",
+          "critics": 100
+        },
+        {
+          "id": 311,
+          "title": "TVING Show 11",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 154,
+          "ageRating": "ADULT18",
+          "critics": 82
+        },
+        {
+          "id": 312,
+          "title": "TVING Show 12",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 126,
+          "ageRating": "AGE12",
+          "critics": 83
+        },
+        {
+          "id": 313,
+          "title": "TVING Show 13",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 164,
+          "ageRating": "AGE12",
+          "critics": 80
+        },
+        {
+          "id": 314,
+          "title": "TVING Show 14",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 44,
+          "ageRating": "ALL",
+          "critics": 65
+        },
+        {
+          "id": 315,
+          "title": "TVING Show 15",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 53,
+          "ageRating": "AGE12",
+          "critics": 71
+        },
+        {
+          "id": 316,
+          "title": "TVING Show 16",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "COMEDY"
+          ],
+          "duration": 76,
+          "ageRating": "ADULT18",
+          "critics": 66
+        },
+        {
+          "id": 317,
+          "title": "TVING Show 17",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "ROMANCE",
+            "DRAMA"
+          ],
+          "duration": 39,
+          "ageRating": "AGE15",
+          "critics": 80
+        },
+        {
+          "id": 318,
+          "title": "TVING Show 18",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 68,
+          "ageRating": "ALL",
+          "critics": 89
+        },
+        {
+          "id": 319,
+          "title": "TVING Show 19",
+          "year": 2022,
+          "type": "SERIES",
+          "genres": [
+            "ROMANCE",
+            "DRAMA"
+          ],
+          "duration": 44,
+          "ageRating": "AGE15",
+          "critics": 87
+        },
+        {
+          "id": 320,
+          "title": "TVING Show 20",
+          "year": 2020,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 67,
+          "ageRating": "AGE12",
+          "critics": 60
+        }
+      ]
+    },
+    {
+      "name": "Disney+",
+      "top10": [
+        {
+          "id": 401,
+          "title": "Disney+ Show 1",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 25,
+          "ageRating": "AGE15",
+          "critics": 81
+        },
+        {
+          "id": 402,
+          "title": "Disney+ Show 2",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 132,
+          "ageRating": "AGE12",
+          "critics": 84
+        },
+        {
+          "id": 403,
+          "title": "Disney+ Show 3",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 128,
+          "ageRating": "ADULT18",
+          "critics": 62
+        },
+        {
+          "id": 404,
+          "title": "Disney+ Show 4",
+          "year": 2022,
+          "type": "SERIES",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 59,
+          "ageRating": "AGE12",
+          "critics": 87
+        },
+        {
+          "id": 405,
+          "title": "Disney+ Show 5",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "DRAMA"
+          ],
+          "duration": 40,
+          "ageRating": "ALL",
+          "critics": 97
+        },
+        {
+          "id": 406,
+          "title": "Disney+ Show 6",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY"
+          ],
+          "duration": 58,
+          "ageRating": "AGE12",
+          "critics": 72
+        },
+        {
+          "id": 407,
+          "title": "Disney+ Show 7",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 102,
+          "ageRating": "ADULT18",
+          "critics": 79
+        },
+        {
+          "id": 408,
+          "title": "Disney+ Show 8",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 26,
+          "ageRating": "ADULT18",
+          "critics": 92
+        },
+        {
+          "id": 409,
+          "title": "Disney+ Show 9",
+          "year": 2020,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 36,
+          "ageRating": "ADULT18",
+          "critics": 70
+        },
+        {
+          "id": 410,
+          "title": "Disney+ Show 10",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 117,
+          "ageRating": "AGE15",
+          "critics": 79
+        },
+        {
+          "id": 411,
+          "title": "Disney+ Show 11",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 64,
+          "ageRating": "AGE12",
+          "critics": 68
+        },
+        {
+          "id": 412,
+          "title": "Disney+ Show 12",
+          "year": 2022,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY"
+          ],
+          "duration": 150,
+          "ageRating": "ADULT18",
+          "critics": 70
+        },
+        {
+          "id": 413,
+          "title": "Disney+ Show 13",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE",
+            "DRAMA"
+          ],
+          "duration": 172,
+          "ageRating": "AGE12",
+          "critics": 69
+        },
+        {
+          "id": 414,
+          "title": "Disney+ Show 14",
+          "year": 2020,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 25,
+          "ageRating": "ADULT18",
+          "critics": 92
+        },
+        {
+          "id": 415,
+          "title": "Disney+ Show 15",
+          "year": 2024,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 54,
+          "ageRating": "ADULT18",
+          "critics": 93
+        },
+        {
+          "id": 416,
+          "title": "Disney+ Show 16",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 66,
+          "ageRating": "AGE15",
+          "critics": 68
+        },
+        {
+          "id": 417,
+          "title": "Disney+ Show 17",
+          "year": 2020,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 57,
+          "ageRating": "ADULT18",
+          "critics": 67
+        },
+        {
+          "id": 418,
+          "title": "Disney+ Show 18",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "ROMANCE"
+          ],
+          "duration": 55,
+          "ageRating": "ALL",
+          "critics": 75
+        },
+        {
+          "id": 419,
+          "title": "Disney+ Show 19",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 151,
+          "ageRating": "ALL",
+          "critics": 68
+        },
+        {
+          "id": 420,
+          "title": "Disney+ Show 20",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 41,
+          "ageRating": "ALL",
+          "critics": 61
+        }
+      ]
+    },
+    {
+      "name": "Watcha",
+      "top10": [
+        {
+          "id": 501,
+          "title": "Watcha Show 1",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "ROMANCE",
+            "DRAMA"
+          ],
+          "duration": 52,
+          "ageRating": "ADULT18",
+          "critics": 93
+        },
+        {
+          "id": 502,
+          "title": "Watcha Show 2",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 65,
+          "ageRating": "AGE15",
+          "critics": 79
+        },
+        {
+          "id": 503,
+          "title": "Watcha Show 3",
+          "year": 2022,
+          "type": "MOVIE",
+          "genres": [
+            "COMEDY"
+          ],
+          "duration": 170,
+          "ageRating": "ADULT18",
+          "critics": 90
+        },
+        {
+          "id": 504,
+          "title": "Watcha Show 4",
+          "year": 2024,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 68,
+          "ageRating": "AGE12",
+          "critics": 96
+        },
+        {
+          "id": 505,
+          "title": "Watcha Show 5",
+          "year": 2023,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 111,
+          "ageRating": "AGE12",
+          "critics": 85
+        },
+        {
+          "id": 506,
+          "title": "Watcha Show 6",
+          "year": 2020,
+          "type": "SERIES",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 59,
+          "ageRating": "ALL",
+          "critics": 89
+        },
+        {
+          "id": 507,
+          "title": "Watcha Show 7",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 47,
+          "ageRating": "AGE12",
+          "critics": 70
+        },
+        {
+          "id": 508,
+          "title": "Watcha Show 8",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 98,
+          "ageRating": "ALL",
+          "critics": 71
+        },
+        {
+          "id": 509,
+          "title": "Watcha Show 9",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 25,
+          "ageRating": "AGE15",
+          "critics": 84
+        },
+        {
+          "id": 510,
+          "title": "Watcha Show 10",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 42,
+          "ageRating": "ALL",
+          "critics": 72
+        },
+        {
+          "id": 511,
+          "title": "Watcha Show 11",
+          "year": 2018,
+          "type": "MOVIE",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 104,
+          "ageRating": "ADULT18",
+          "critics": 99
+        },
+        {
+          "id": 512,
+          "title": "Watcha Show 12",
+          "year": 2019,
+          "type": "SERIES",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 64,
+          "ageRating": "ADULT18",
+          "critics": 71
+        },
+        {
+          "id": 513,
+          "title": "Watcha Show 13",
+          "year": 2019,
+          "type": "SERIES",
+          "genres": [
+            "COMEDY"
+          ],
+          "duration": 36,
+          "ageRating": "AGE15",
+          "critics": 72
+        },
+        {
+          "id": 514,
+          "title": "Watcha Show 14",
+          "year": 2019,
+          "type": "SERIES",
+          "genres": [
+            "ACTION",
+            "SCIFI"
+          ],
+          "duration": 64,
+          "ageRating": "ALL",
+          "critics": 60
+        },
+        {
+          "id": 515,
+          "title": "Watcha Show 15",
+          "year": 2019,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 146,
+          "ageRating": "ALL",
+          "critics": 65
+        },
+        {
+          "id": 516,
+          "title": "Watcha Show 16",
+          "year": 2021,
+          "type": "SERIES",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 28,
+          "ageRating": "ALL",
+          "critics": 62
+        },
+        {
+          "id": 517,
+          "title": "Watcha Show 17",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "FANTASY",
+            "SCIFI"
+          ],
+          "duration": 128,
+          "ageRating": "AGE15",
+          "critics": 74
+        },
+        {
+          "id": 518,
+          "title": "Watcha Show 18",
+          "year": 2018,
+          "type": "SERIES",
+          "genres": [
+            "ACTION"
+          ],
+          "duration": 27,
+          "ageRating": "ALL",
+          "critics": 85
+        },
+        {
+          "id": 519,
+          "title": "Watcha Show 19",
+          "year": 2021,
+          "type": "MOVIE",
+          "genres": [
+            "THRILLER",
+            "DRAMA"
+          ],
+          "duration": 168,
+          "ageRating": "AGE12",
+          "critics": 93
+        },
+        {
+          "id": 520,
+          "title": "Watcha Show 20",
+          "year": 2023,
+          "type": "SERIES",
+          "genres": [
+            "DOCUMENTARY"
+          ],
+          "duration": 43,
+          "ageRating": "AGE12",
+          "critics": 68
+        }
+      ]
+    }
+  ]
+}

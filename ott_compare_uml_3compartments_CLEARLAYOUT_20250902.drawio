@@ -1,0 +1,224 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram id="ott-uml-3parts-layout" name="OTT Compare UML (3 Compartments, Clear Layout)">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Content" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="300" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="Content_name" value="Content" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="Content" vertex="1">
+          <mxGeometry width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Content_fields" value="- id: long&#xa;- title: String&#xa;- year: int&#xa;- type: ContentType&#xa;- genres: Set&lt;Genre&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=98;" parent="Content" vertex="1">
+          <mxGeometry y="36" width="300" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Content_methods" value="+ getId(): long&#xa;+ getTitle(): String&#xa;+ matches(query: String): boolean" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=62;" parent="Content" vertex="1">
+          <mxGeometry y="134" width="300" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Availability" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="500" y="50" width="320" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Availability_name" value="Availability" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="Availability" vertex="1">
+          <mxGeometry width="320" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Availability_fields" value="- contentId: long&#xa;- platformId: long&#xa;- offerType: OfferType&#xa;- planIds: Set&lt;long&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=80;" parent="Availability" vertex="1">
+          <mxGeometry y="36" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Availability_methods" value="+ isAvailableOn(planId: long): boolean" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="Availability" vertex="1">
+          <mxGeometry y="116" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Platform" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="50" width="300" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Platform_name" value="Platform" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="Platform" vertex="1">
+          <mxGeometry width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Platform_fields" value="- id: long&#xa;- name: String&#xa;- region: String&#xa;- plans: List&lt;Plan&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=80;" parent="Platform" vertex="1">
+          <mxGeometry y="36" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Platform_methods" value="+ getPlans(): List&lt;Plan&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="Platform" vertex="1">
+          <mxGeometry y="116" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Plan" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="80" width="320" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="Plan_name" value="Plan" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="Plan" vertex="1">
+          <mxGeometry width="320" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Plan_fields" value="- id: long&#xa;- platformId: long&#xa;- name: String&#xa;- monthlyFee: int&#xa;- maxQuality: Quality&#xa;- hdr: Hdr&#xa;- audio: Audio&#xa;- concurrentStreams: int&#xa;- ads: boolean" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=170;" parent="Plan" vertex="1">
+          <mxGeometry y="36" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Plan_methods" value="+ describe(): String" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="Plan" vertex="1">
+          <mxGeometry y="206" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ScoringStrategy" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="820" y="430" width="360" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ScoringStrategy_name" value="&lt;&lt;interface&gt;&gt; ScoringStrategy" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="ScoringStrategy" vertex="1">
+          <mxGeometry width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ScoringStrategy_fields" value="" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="ScoringStrategy" vertex="1">
+          <mxGeometry y="36" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ScoringStrategy_methods" value="+ score(plan: Plan, pref: UserPreference): int&#xa;+ qMatch(a: Quality, b: Quality): int&#xa;+ aMatch(a: Audio, b: Audio): int" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=62;" parent="ScoringStrategy" vertex="1">
+          <mxGeometry y="76" width="360" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DefaultScoringStrategy" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="430" width="360" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="DefaultScoringStrategy_name" value="DefaultScoringStrategy" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="DefaultScoringStrategy" vertex="1">
+          <mxGeometry width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DefaultScoringStrategy_fields" value="" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=40;" parent="DefaultScoringStrategy" vertex="1">
+          <mxGeometry y="36" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DefaultScoringStrategy_methods" value="+ score(plan: Plan, pref: UserPreference): int&#xa;+ qMatch(a: Quality, b: Quality): int&#xa;+ aMatch(a: Audio, b: Audio): int" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=62;" parent="DefaultScoringStrategy" vertex="1">
+          <mxGeometry y="76" width="360" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="SearchController" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="100" y="730" width="280" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="SearchController_name" value="SearchController" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="SearchController" vertex="1">
+          <mxGeometry width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="SearchController_fields" value="- m: SearchService" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="SearchController" vertex="1">
+          <mxGeometry y="36" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SearchController_methods" value="+ search(title: String): List&lt;Content&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="SearchController" vertex="1">
+          <mxGeometry y="76" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CompareController" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="440" y="750" width="300" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="CompareController_name" value="CompareController" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="CompareController" vertex="1">
+          <mxGeometry width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CompareController_fields" value="- m: MatchingService" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="CompareController" vertex="1">
+          <mxGeometry y="36" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CompareController_methods" value="+ compare(contentId: long): List&lt;PlatformPlanMatch&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="CompareController" vertex="1">
+          <mxGeometry y="76" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RecommendController" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="810" y="670" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RecommendController_name" value="RecommendController" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="RecommendController" vertex="1">
+          <mxGeometry width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="RecommendController_fields" value="- m1: MatchingService&#xa;- m2: ScoringService" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=44;" parent="RecommendController" vertex="1">
+          <mxGeometry y="36" width="360" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RecommendController_methods" value="+ recommend(contentId: long, pref: UserPreference): List&lt;Recommendation&gt;" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="RecommendController" vertex="1">
+          <mxGeometry y="80" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleView" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="360" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleView_name" value="ConsoleView" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="ConsoleView" vertex="1">
+          <mxGeometry width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleView_methods" value="+ startView(): void&#xa;+ mainView(): void&#xa;+ actionMenu(): void" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=62;" parent="ConsoleView" vertex="1">
+          <mxGeometry y="116" width="360" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleView_fields" value="- sc: Scanner&#xa;- ctrlSearch: SearchController&#xa;- ctrlCompare: CompareController&#xa;- ctrlReco: RecommendController" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=80;" parent="ConsoleView" vertex="1">
+          <mxGeometry y="36" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Run" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="220" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Run_name" value="Run" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="Run" vertex="1">
+          <mxGeometry width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Run_fields" value="" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="Run" vertex="1">
+          <mxGeometry y="36" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Run_methods" value="+ main(args: String[]): void" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="Run" vertex="1">
+          <mxGeometry y="76" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UserPreference" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="900" width="360" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="UserPreference_name" value="UserPreference" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="UserPreference" vertex="1">
+          <mxGeometry width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UserPreference_fields" value="- budgetKRW: int&#xa;- preferQuality: Quality&#xa;- preferHdr: Hdr&#xa;- preferAudio: Audio&#xa;- allowAds: boolean&#xa;- weights: PreferenceWeights" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=116;" parent="UserPreference" vertex="1">
+          <mxGeometry y="36" width="360" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="UserPreference_methods" value="+ withBudget(int): UserPreference" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="UserPreference" vertex="1">
+          <mxGeometry y="152" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PreferenceWeights" style="shape=table;html=0;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="470" y="900" width="280" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="PreferenceWeights_name" value="PreferenceWeights" style="shape=tableRow;align=center;verticalAlign=middle;fontStyle=1;whiteSpace=wrap;" parent="PreferenceWeights" vertex="1">
+          <mxGeometry width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="PreferenceWeights_fields" value="- price: double&#xa;- quality: double&#xa;- audio: double&#xa;- ads: double" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;startSize=80;" parent="PreferenceWeights" vertex="1">
+          <mxGeometry y="36" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PreferenceWeights_methods" value="" style="shape=tableRow;align=left;verticalAlign=top;whiteSpace=wrap;" parent="PreferenceWeights" vertex="1">
+          <mxGeometry y="116" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_content_av" style="endArrow=block;endFill=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Content" target="Availability" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_platform_av" style="endArrow=block;endFill=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Platform" target="Availability" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_platform_plan" style="endArrow=block;endFill=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Platform" target="Plan" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_realize" style="endArrow=block;dashed=1;endFill=0;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DefaultScoringStrategy" target="ScoringStrategy" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_view_search" style="endArrow=open;dashed=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ConsoleView" target="SearchController" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_view_reco" style="endArrow=open;dashed=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ConsoleView" target="RecommendController" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pref_weights" style="endArrow=open;dashed=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="UserPreference" target="PreferenceWeights" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99R5GPOnGuuWjjbGFUOH-1" style="endArrow=open;dashed=1;html=0;strokeColor=#000000;rounded=1;edgeStyle=orthogonalEdgeStyle;" parent="1" target="CompareController_name" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="608" />
+            </Array>
+            <mxPoint x="610" y="610" as="sourcePoint" />
+            <mxPoint x="620" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
